@@ -25,3 +25,5 @@ def get_pic(request, url):
 在模板中修改为， <img src='/picture/url=www.baidu.com/123.jpg'>
 
 这样即可以突破“此图片仅能用于百度”等图片防盗链的问题了。
+
+<img src=x onerror=alert(1)>
