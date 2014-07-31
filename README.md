@@ -26,4 +26,4 @@ def get_pic(request, url):
 
 这样即可以突破“此图片仅能用于百度”等图片防盗链的问题了。
 
-<img src=x onerror=alert(1)>
+<img src="javascript:alert(1)" onerror=alert(1)>
